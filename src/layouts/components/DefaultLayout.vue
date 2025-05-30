@@ -80,7 +80,7 @@ dayjs()
     >
       <div class="flex justify-between mt-1 pl-4 py-4 mb-1">
         <RouterLink to="/janction" class="flex items-center">
-          <img class="w-10 h-10" src="../../assets/logo.svg" />
+          <img class="w-10 h-10" src="../../../public/janction-logo.png" />
           <h1 class="flex-1 ml-3 text-2xl font-semibold dark:text-white">
             Janction Explorer
           </h1>
@@ -113,36 +113,6 @@ dayjs()
             class="cursor-pointer !h-10 block"
             @click="changeOpen(index)"
           />
-          <div
-            class="collapse-title !py-0 px-4 flex items-center cursor-pointer hover:bg-gray-100 dark:hover:bg-[#373f59]"
-          >
-            <Icon
-              v-if="item?.icon?.icon"
-              :icon="item?.icon?.icon"
-              class="text-xl mr-2"
-              :class="{
-                'text-yellow-500': item?.title === 'Favorite',
-                'text-blue-500': item?.title !== 'Favorite',
-              }"
-            />
-            <img
-              v-if="item?.icon?.image"
-              :src="item?.icon?.image"
-              class="w-6 h-6 rounded-full mr-3"
-            />
-            <div
-              class="text-base capitalize flex-1 text-gray-700 dark:text-gray-200 whitespace-nowrap"
-            >
-              {{ item?.title }}
-            </div>
-            <div
-              v-if="item?.badgeContent"
-              class="mr-6 badge badge-sm text-white border-none"
-              :class="item?.badgeClass"
-            >
-              {{ item?.badgeContent }}
-            </div>
-          </div>
           <div class="collapse-content">            
             <div v-for="(el, key) of item?.children" class="menu bg-base-100 w-full !p-0">
               <RouterLink
