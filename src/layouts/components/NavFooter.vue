@@ -8,13 +8,13 @@
       {{ new Date().getFullYear() }}&nbsp;
       Made With&nbsp;
       <img src="../../assets/images/heart.svg" />&nbsp;
-      By&nbsp;
+      Powered By&nbsp;
       <a
         class="link link-primary no-underline"
-        href="https://ping.pub"
+        href="https://github.com/ping-pub/explorer"
         target="_blank"
         rel="noopener noreferrer"
-        >Ping.pub</a
+        >Ping Explorer</a
       >
     </div>
     <div
@@ -22,13 +22,13 @@
     >
       <a
         class="link link-primary no-underline mr-4"
-        href="https://github.com/ping-pub/explorer/blob/master/LICENSE"
+        href="https://github.com/dimitrisjasmy/explorer/blob/master/LICENSE"
         target="noopener noreferrer"
         >License</a
       >
       <a
         class="link link-primary no-underline"
-        href="https://github.com/ping-pub/explorer"
+        href="https://github.com/dimitrisjasmy/explorer"
         target="noopener noreferrer"
         >Github</a
       >
