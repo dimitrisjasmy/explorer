@@ -1,5 +1,5 @@
 {
-  "chain_name": "janction",
+  "chain_name": "JANCTION",
   "api": [
     "http://testnet.rpc.janction.ai:1317"
   ],
@@ -14,11 +14,11 @@
       "base": "ujct",
       "symbol": "JCT",
       "exponent": "6",
-      "coingecko_id": "janction",
+      "coingecko_id": "JANCTION",
       "logo": ""
     }
   ],
-  "addr_prefix": "janction",
+  "addr_prefix": "JANCTION",
   "theme_color": "#ce4747",
   "logo": "/public/janction-logo.png"
 }
