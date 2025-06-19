@@ -1,10 +1,10 @@
 {
   "chain_name": "JANCTION",
   "api": [
-    "https://testnet.rpc.janction.ai"
+    "https://testnet.rpc.janction.ai/rest:1317"
   ],
   "rpc": [
-    "https://testnet.rpc.janction.ai:26657"
+    "https://testnet.rpc.janction.ai/rest:26657"
   ],
   "sdk_version": "0.50.11",
   "coin_type": "118",
