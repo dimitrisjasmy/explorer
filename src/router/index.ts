@@ -6,18 +6,18 @@ import { setupLayouts } from "virtual:generated-layouts";
 import routes from "~pages";
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory('JANCTION'),
   routes: [...setupLayouts(routes)],
 });
 
 //update current blockchain
 router.beforeEach((to) => {
-    const { chain } = to.params
+  const { chain } = to.params
     if(chain){
-      const blockchain= useBlockchain()
-      if(chain !== blockchain.chainName) {
-        blockchain.setCurrent(chain.toString())
-      }
+    const blockchain= useBlockchain()
+  if (chain !== blockchain.chainName) {
+    blockchain.setCurrent(chain.toString())
+  }
     } 
 })
 
