@@ -80,7 +80,7 @@ dayjs()
     >
       <div class="flex justify-between mt-1 pl-4 py-4 mb-1">
         <RouterLink to="/JANCTION" class="flex items-center">
-          <img class="w-10 h-10" src="../../../public/janction-logo.png" />
+          <img class="w-10 h-10" src="../../../janction-logo.png" />
           <h1 class="flex-1 ml-3 text-2xl font-semibold dark:text-white">
             JANCTION Explorer
           </h1>
